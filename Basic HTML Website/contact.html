@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contact" />
+    <meta name="description" content="Junior Frontend Developer's CV contact" />
+    <meta name="author" content="zhengyanshuonihao" />
+    <meta property="og:title" content="Junior Frontend Developer's CV" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpg" width="30px" alt="logo">
+        </div>
+
+        <ul id="nav_links">
+            <li><a href="home.html" alt="_blank" title="Home">Home</a></li>
+            <li><a href="projects.html" alt="_blank" title="Projects I made by html,css and js">Projects</a></li>
+            <li><a href="articles.html" alt="_blank" title="Articles about Frontend Developer">Articles</a></li>
+            <li><a href="contact.html" alt="_blank" title="Contact us right now">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Contact us now!</h1>
+    </header>
+
+    <main>
+        <section id="contact">
+            <div class="subheading">
+                <h3>Contact</h3>
+            </div>
+            <form method="post">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required autofocus><br>
+                    <label for="pwd">password:</label><br>
+                    <input type="password" id="pwd" name="pwd" required><br>
+                    <label for="email">e-mail:</label><br>
+                    <input type="email" id="e-mail" name="e-mail"><br>
+                    <label for="mes">message</label><br>
+                    <input type="number" id="mes" name="mes" pattern="[0-9][0-9][0-9][0-9][0-9][0-9]" size="6"><br>
+                    <label for="gender">gender:</label>
+                    <select id="gender" name="gender">
+                        <option>male</option>
+                        <option>female</option>
+                    </select><br><br>
+                    <input type="reset" value="reset">
+                    <input type="submit" value="submit">
+                </fieldset>
+            </form>
+            <div id="contact_request">
+                <p><b>Contact</b> us at <a href="https://github.com/zhengyanshuonihao"
+                        alt="_blank">https://github.com/zhengyanshuonihao</a></p>
+            </div>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; all rights reserved 2024</p>
+    </footer>
+</body>
+
+</html>
