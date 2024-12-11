@@ -1,0 +1,198 @@
+body {
+    background-color: rgb(160, 217, 246);
+    border: solid 3px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    font-size: 100%;
+    outline: 5000px solid white;
+}
+
+/*Set the nav*/
+nav {
+    padding: 20px;
+    height: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+#nav_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#nav_li {
+    display: inline;
+}
+
+/* Set the link */
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+/*Set the heading*/
+#intro {
+    height: 30%;
+    padding: 100px;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+#heading {
+    font: 2em "Courier New", Courier, monospace;
+}
+
+#heading_explain {
+    color: gray;
+}
+
+/*Set the subheading*/
+.subheading {
+    font: 1em "Courier New", Courier, monospace;
+}
+
+/* Set the column */
+#projects {
+    float: left;
+    width: 20%;
+    height: 500px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    /* padding: 15px; */
+}
+
+#experience {
+    float: left;
+    width: 40%;
+    height: 500px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    /* padding: 15px; */
+}
+
+
+#Education {
+    float: left;
+    width: 39%;
+    /* padding: 15px; */
+    height: 500px;
+    border-bottom: 3px solid black;
+}
+
+.column::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 800px) {
+    #projects {
+        width: 100%;
+    }
+    #experience{
+        width: 100%;
+    }
+    #Education{
+        width: 100%;
+    }
+}
+
+/* style the projects */
+.pad {
+    padding-left: 15px;
+}
+
+.pro_li {
+    list-style-type: none;
+    border-bottom: 3px solid black;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.bottom1 {
+    display: block;
+    color: black;
+    background-color: black;
+    height: 3px;
+}
+
+/* style the experience */
+.visit {
+    color: rgba(0, 128, 255, 0.936);
+}
+
+/* #open_work {
+        padding: 15px;
+        height: 250px;
+    }
+
+    #work_expe {
+        padding: 15px;
+        height: 265px;
+        border-bottom: 3px solid black;
+    } */
+
+/* style the review */
+.review {
+    padding: 15px;
+    height: 500px;
+}
+
+.teacher {
+    float: left;
+    padding: 15px;
+    margin: 20px 40px;
+    width: 20%;
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+.teachers::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tea_name {
+    padding: 10px 0;
+    color: gray;
+}
+
+#edu_course {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+/* style the footer */
+#copyright {
+    font: 1em "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+footer {
+    padding: 50px;
+}
